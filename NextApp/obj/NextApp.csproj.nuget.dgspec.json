@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\API_Automation\\NextApp\\NextApp\\NextApp.csproj": {}
+    "F:\\NextAppAutomation\\NextAppAutomation\\NextAppAutomation\\NextApp\\NextApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\API_Automation\\NextApp\\NextApp\\NextApp.csproj": {
+    "F:\\NextAppAutomation\\NextAppAutomation\\NextAppAutomation\\NextApp\\NextApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\API_Automation\\NextApp\\NextApp\\NextApp.csproj",
+        "projectUniqueName": "F:\\NextAppAutomation\\NextAppAutomation\\NextAppAutomation\\NextApp\\NextApp.csproj",
         "projectName": "NextApp",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\API_Automation\\NextApp\\NextApp\\NextApp.csproj",
+        "projectPath": "F:\\NextAppAutomation\\NextAppAutomation\\NextAppAutomation\\NextApp\\NextApp.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\API_Automation\\NextApp\\NextApp\\obj\\",
+        "outputPath": "F:\\NextAppAutomation\\NextAppAutomation\\NextAppAutomation\\NextApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,14 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[4.1.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "SpecFlow.Assist.Dynamic": {
+              "target": "Package",
+              "version": "[1.4.2, )"
             },
             "SpecFlow.NUnit": {
               "target": "Package",
