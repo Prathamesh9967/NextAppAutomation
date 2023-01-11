@@ -6,7 +6,7 @@ Link to a feature: [Calculator](NextApp/Features/Calculator.feature)
 ***Further read***: **[Learn more about how to generate Living Documentation](https://docs.specflow.org/projects/specflow-livingdoc/en/latest/LivingDocGenerator/Generating-Documentation.html)**
 
 @mytag
-Scenario: Add two numbers
+Scenario: Add two numbers for prathmesh
 	Given the first number is 50
 	And the second number is 70
 	When the two numbers are added
