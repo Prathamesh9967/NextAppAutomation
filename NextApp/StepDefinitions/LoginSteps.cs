@@ -1,4 +1,5 @@
 ﻿using NextApp.Pages;
+using NUnit.Framework;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
 
@@ -9,6 +10,7 @@ namespace NextApp.StepDefinitions
     {
         HomePage homepage = new HomePage();
         LoginPage loginpage = new LoginPage();
+        ProfilePage profilePage = new ProfilePage();
 
         [Given(@"I navigate to the WebApp")]
         public void GivenINavigateToTheWebApp()
@@ -37,6 +39,18 @@ namespace NextApp.StepDefinitions
             loginpage.clickSubmit();
         }
 
+        [Given(@"i click on profile button")]
+        public void GivenIClickOnProfileButtonAndILogout()
+        {
+            homepage.clickProfile();
+        }
+
+        [Then(@"i click on Logout")]
+        public void ThenIClickOnLogout()
+        {
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            profilePage.clickLogout();
+        }
 
     }
 }

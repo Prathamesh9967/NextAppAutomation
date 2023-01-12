@@ -112,13 +112,19 @@ this.ScenarioInitialize(scenarioInfo);
                             "email",
                             "password"});
                 table1.AddRow(new string[] {
-                            "admin",
-                            "password"});
+                            "test99@gmail.com",
+                            "test@99"});
 #line 8
  testRunner.And("I enter email and password", ((string)(null)), table1, "And ");
 #line hidden
 #line 11
  testRunner.And("i click Submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 12
+ testRunner.And("i click on profile button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+#line 13
+ testRunner.Then("i click on Logout", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
